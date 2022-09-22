@@ -123,6 +123,9 @@ h1{
 	background-size: 20%;
 	background-position: top center;
 }
+.bg-img-foxed{
+	background:url(../img/lesson-bg/bg4.png) no-repeat fixed 70% 300px / 32% ,url(../img/lesson-bg/bg2.png) no-repeat fixed 70% 2% / 32%, url(../img/lesson-bg/bg2.png) no-repeat fixed 30% 22% / 22%, url(../img/lesson-bg/bg3.jpg) fixed center center / cover;
+}
 .bg-repeat.no-repeat{
 	background-image: url(../img/lesson-bg/bg2.png);
 	background-repeat: no-repeat;
@@ -150,4 +153,7 @@ h1{
 }
 .bg-img-and-color{
 	background:url(../img/lesson-bg/bg2.png) no-repeat center 120px / 30%, url(../img/lesson-bg/bg1.png) no-repeat center left / 20%, url(../img/lesson-bg/bg6.jpg) no-repeat center top / cover, #444;
+}
+.bg-img-foxed{
+	background:url(../img/lesson-bg/bg4.png) no-repeat fixed 70% 300px / 32% ,url(../img/lesson-bg/bg2.png) no-repeat fixed 70% 2% / 32%, url(../img/lesson-bg/bg2.png) no-repeat fixed 30% 22% / 22%, url(../img/lesson-bg/bg3.jpg) fixed center center / cover;
 }
