@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body{
+	font-family: 'Lato', sans-serif;
+	background-color: beige;
+}
+header{}
+main{}
+.navigation{
+	padding-top: 36px;
+	background-color: #fff;
+}
+.logo{
+	display: inline-block;
+}
+.menu{
+	display: inline-block;
+	margin-left: 60px;
+}
+.menu li{
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin: 0px 20px;
+	display: inline-block;
+	color: #FF3F3A;
+}
+.link-box{
+}
+.link-box a{
+	color: #424551;
+}.link-box a:hover{
+	color: #FF3F3A;
+}
+[class*="__container"]{
+	width: 1230px;
+	margin: 0px auto;
+}
+.content{
+	padding-top: 90px;
+	padding-bottom: 20px;
+	background-color: #fff;
+	max-width: 810px;
+	margin-bottom: 60px;
+}
+h1{
+	font-size: 46px;
+	font-weight: 900;
+	color:#1E212C;
+	margin-bottom: 95px;
+}
+.content-img{
+	max-width:810px;
+	margin-bottom: 65px;
+}
+.content-img img{
+	max-width: 100%;
+}
+.content-text .subtitle{
+	font-size: 20px;
+	font-weight: 700;
+}
+.content-text p{
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 30px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #1E212C;
+}
+.content-quote{
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 150%;
+	color: #1E212C;
+	padding: 30px 0px 40px 60px;
+}
+.content-text ul{
+	display: block;
+	margin: 0px 0px 30px 30px;
+}
+.content-text ul li{
+	font-size: 16px;
+	font-weight: 400;
+	color: #424551;
+	margin-bottom: 20px;
+}
+
+
+/* ============= background ========= */
+.lesson{
+	max-width: 960px;
+	background-color: rgb(255, 255, 255);
+	padding:20px 0px;
+	margin:0px auto;
+	box-shadow: 1px 1px 3px rgba(78, 56, 179, 0.6);
+
+}
+.lesson div{
+	margin: 5px auto 40px auto;
+	height: 250px;
+	max-width: 630px;
+	border: 1px solid rgb(201, 201, 201);
+	border-radius: 5px;
+	box-shadow:inset 1px 1px 13px rgba(255, 255, 255, 0.6);
+}
+.lesson span{
+	display: inline-block;
+	padding: 10px ;
+	margin-bottom: 5px;
+	color: #fff;
+	background-color: rgb(235, 95, 31);
+	line-height: 20px;
+	box-shadow: 1px 1px 1px rgb(15, 15, 66);
+}
+.lesson span:hover{
+	box-shadow: inset 1px 3px 4px rgb(15, 15, 66, .3);
+	background-color:rgb(206, 84, 27);
+}
+.bg-position{
+	background-image: url(../img/lesson-bg/bg1.png);
+	background-repeat: no-repeat;
+	background-size: 20%;
+	background-position: top center;
+}
+.bg-repeat.no-repeat{
+	background-image: url(../img/lesson-bg/bg2.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+.bg-repeat.repeat-x{
+	background-image: url(../img/lesson-bg/bg6.jpg);
+	background-repeat: repeat-x;
+	background-size: contain;
+	background-position: center;
+}
+.bg-repeat.repeat-x + .bg-repeat.repeat-x{
+	background-position: bottom left;
+	background: url(../img/lesson-bg/bg4.png) 30% center / 30%;
+}
+.bg-repeat.repeat-y{
+	background: url(../img/lesson-bg/bg1.png), rgb(65, 187, 126);
+	background-repeat: repeat-y;
+	background-size: 20%;
+	background-position: top right;
+}
+.bg-size{
+	background: url(../img/lesson-bg/bg4.png) no-repeat left center / 50% , url(../img/lesson-bg/bg5.png) no-repeat center / 30%, rgb(9, 10, 63);
+}
+.bg-img-and-color{
+	background:url(../img/lesson-bg/bg2.png) no-repeat center 120px / 30%, url(../img/lesson-bg/bg1.png) no-repeat center left / 20%, url(../img/lesson-bg/bg6.jpg) no-repeat center top / cover, #444;
+}
